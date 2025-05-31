@@ -30,7 +30,7 @@ const Home = () => {
 
   if (!isAuthenticated) {
     return (
-      <div className="w-screen h-screen bg-gray-100">
+      <div className="min-h-screen bg-gray-100">
         <div className="container mx-auto px-4 py-16">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">FinditBack</h1>
@@ -90,7 +90,7 @@ const Home = () => {
   }
 
   return (
-    <div className="w-screen h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
           <div className="flex border-b border-gray-200">

@@ -3,7 +3,7 @@ import ReportItemForm from "../components/ReportItemForm"
 
 const Report = ({ type }) => {
   return (
-    <div className="w-screen h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-4">
           <Link to="/" className="inline-flex items-center text-blue-600 hover:text-blue-800">
