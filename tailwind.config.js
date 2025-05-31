@@ -7,20 +7,26 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#2563eb',
-        'primary-foreground': '#ffffff',
+        primary: {
+          DEFAULT: '#2563eb',
+          foreground: '#ffffff',
+        },
         background: '#ffffff',
+        foreground: '#111827',
         border: '#e5e7eb',
         input: '#e5e7eb',
         ring: '#2563eb',
-        accent: '#f3f4f6',
-        'accent-foreground': '#111827',
-        muted: '#6b7280',
-        'muted-foreground': '#6b7280',
-        popover: '#ffffff',
-        'popover-foreground': '#111827',
-        card: '#ffffff',
-        'card-foreground': '#111827',
+        card: {
+          DEFAULT: '#ffffff',
+          foreground: '#111827',
+        },
+        destructive: '#dc2626',
+        success: '#16a34a',
+      },
+      borderRadius: {
+        lg: '0.5rem',
+        md: '0.375rem',
+        sm: '0.25rem',
       },
     },
   },
